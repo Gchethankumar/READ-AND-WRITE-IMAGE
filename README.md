@@ -19,9 +19,11 @@ Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
 ## Program:
-### Developed By:
-### Register Number: 
-i) #To Read,display the image
+```
+Developed By:G.Chethan Kumar
+Register Number:212222240022 
+```
+### i)To Read,display the image
 ```python3
 import cv2
 image=cv2.imread("flower.jpeg",1)
@@ -30,7 +32,7 @@ cv2.waitKey(0)
 cv2.destroyAllwindows()
 
 ```
-ii) #To write the image
+### ii)To write the image
 ```python3
 import cv2
 image=cv2.imread("flower.jpeg",1)
@@ -39,13 +41,13 @@ cv2.imshow("212222240022_G.ChethanKumar",image)
 cv2.waitKey(0)
 cv2.destroyAllwindows()
 ```
-iii) #Find the shape of the Image
+### iii)Find the shape of the Image
 ```python3
 import cv2
 picture=cv2.imread("flower.jpeg",1)
 print(picture.shape)
 ```
-iv) #To access rows and columns
+### iv)To access rows and columns
 
 ```python3
 import random
@@ -58,7 +60,7 @@ cv2.imshow("21222240022_G.ChethanKumar",image)
 cv2.waitKey(0)
 cv2.destroyAllwindows()
 ```
-v) #To cut and paste portion of image
+### v)To cut and paste portion of image
 ```python3
 import cv2
 img = cv2.imread('tree.jpeg', 1)
