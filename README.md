@@ -48,39 +48,45 @@ print(picture.shape)
 iv) #To access rows and columns
 
 ```python3
-
+import random
+import cv2
+image=cv2.imread("flower.jpeg",1)
+for i in range(100):
+    for j in range(image.shape[1]):
+        image[i][j]=[random.randint(0,255),random.randint(0,255),random.randint(0,255)]
+cv2.imshow("21222240022_G.ChethanKumar",image)
+cv2.waitKey(0)
+cv2.destroyAllwindows()
 ```
 v) #To cut and paste portion of image
 ```python3
-
-
-
+import cv2
+img = cv2.imread('tree.jpeg', 1)
+tag = img[20:80:, 20:80]
+img[90:150, 90:150] = tag
+cv2.imshow('212222240022_GChethankumar', img)
+cv2.waitKey(0)
 ```
 
 ## Output:
 
 ### i) Read and display the image
 
-<br>
-<br>
+
 
 ### ii)Write the image
+![Screenshot from 2023-08-16 22-08-53](https://github.com/Gchethankumar/READ-AND-WRITE-IMAGE/assets/118348224/cc849e2b-a9e7-4471-a41e-2083a2ee66c3)
 
-<br>
-<br>
 
 ### iii)Shape of the Image
+![Screenshot from 2023-08-16 22-12-48](https://github.com/Gchethankumar/READ-AND-WRITE-IMAGE/assets/118348224/46addbf9-3989-4c23-80d9-26a60d49bb6c)
 
-<br>
-<br>
 
 ### iv)Access rows and columns
-<br>
-<br>
+
 
 ### v)Cut and paste portion of image
-<br>
-<br>
 
+![Screenshot from 2023-08-22 14-49-14](https://github.com/Gchethankumar/READ-AND-WRITE-IMAGE/assets/118348224/9554b7cd-ddab-4aab-98a7-9b144cc86f73)
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
