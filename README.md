@@ -69,9 +69,8 @@ cv2.waitKey(0)
 ```
 
 ## Output:
-
 ### i) Read and display the image
-
+![Screenshot from 2023-08-16 21-51-49](https://github.com/Gchethankumar/READ-AND-WRITE-IMAGE/assets/118348224/a4a81584-f390-48c9-bd2e-7eaa8581a6ce)
 
 
 ### ii)Write the image
@@ -83,6 +82,7 @@ cv2.waitKey(0)
 
 
 ### iv)Access rows and columns
+![Screenshot from 2023-08-16 22-20-26](https://github.com/Gchethankumar/READ-AND-WRITE-IMAGE/assets/118348224/2d134890-1f98-4788-ac42-d0cedb0e5641)
 
 
 ### v)Cut and paste portion of image
